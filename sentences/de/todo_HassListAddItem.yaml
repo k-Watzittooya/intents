@@ -9,6 +9,8 @@ intents:
           - "<item> (auf|in) <meine_liste_akkusativ>[ (setzen|schreiben|nehmen)]"
           - "<item>[ (zu|zur|zum)] <meine_liste_dativ> hinzufügen"
           - "<item>[ (auf|in)] <meine_liste_akkusativ> hinzufügen"
+          - "<item> einkaufen"
+          - "kaufe <item> ein"
         response: item_added
         requires_context:
           domain: todo
